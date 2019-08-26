@@ -7,14 +7,14 @@
 # Mail Server #
 ###############
 
-# mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
-# mail.host: 'localhost'
-# mail.port: 25
-# mail.username: ''
-# mail.password: ''
-# mail.use-tls: false
+mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
+mail.host: 'technokrat.ch'
+mail.port: 25
+mail.username: 'technokrat'
+mail.password: 'k5_KIMKqcZkACghPrs'
+mail.use-tls: false
 # The email address to send on behalf of
-# mail.from: 'root@localhost'
+mail.from: 'it@technokrat.ch'
 
 # If you'd like to configure email replies, enable this.
 # mail.enable-replies: false
@@ -29,6 +29,12 @@
 ###################
 # System Settings #
 ###################
+
+auth.allow-registrations: false
+beacon.anonymous: true
+
+system.admin-email: 'nh@technokrat.ch'
+system.url-prefix: 'https://sentry.technokrat.ch'
 
 # If this file ever becomes compromised, it's important to regenerate your a new key
 # Changing this value will result in all current sessions being invalidated.
